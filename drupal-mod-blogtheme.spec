@@ -3,7 +3,7 @@ Summary:	Drupal Blog Theme Module
 Summary(pl):	Modu³ Drupal Blog Theme
 Name:		drupal-mod-%{modname}
 Version:	4.6.0
-Release:	0.1
+Release:	0.2
 Epoch:		0
 License:	GPL v2
 Group:		Applications/WWW
@@ -14,7 +14,8 @@ Requires:	drupal >= 4.6.0
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
-%define		_moddir		%{_datadir}/drupal/modules
+%define		_drupaldir	%{_datadir}/drupal
+%define		_moddir		%{_drupaldir}/modules
 
 %description
 Blog theme allows users to have persistent themes for their blogs
