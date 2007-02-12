@@ -1,6 +1,6 @@
 %define		modname blogtheme
 Summary:	Drupal Blog Theme Module
-Summary(pl.UTF-8):   Moduł Drupal Blog Theme
+Summary(pl.UTF-8):	Moduł Drupal Blog Theme
 Name:		drupal-mod-%{modname}
 Version:	4.6.0
 Release:	0.2
