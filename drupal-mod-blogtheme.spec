@@ -1,6 +1,6 @@
 %define		modname blogtheme
 Summary:	Drupal Blog Theme Module
-Summary(pl):	Modu≥ Drupal Blog Theme
+Summary(pl.UTF-8):   Modu≈Ç Drupal Blog Theme
 Name:		drupal-mod-%{modname}
 Version:	4.6.0
 Release:	0.2
@@ -26,14 +26,14 @@ the author's theme instead of their own.
 The module works by using the hook_init function and setting the
 $custom_theme global variable to the node/blog owner's theme.
 
-%description -l pl
-Blog theme pozwala uøytkownikom mieÊ trwa≥e motywy dla swoich blogÛw w
-oparciu o motyw wybrany dla w≥asnego konta. Kiedy inni ogl±daj± ich
-g≥Ûwn± stronÍ bloga lub dowolny utworzony wÍze≥, czytelnik zobaczy
-motyw autora zamiast w≥asnego.
+%description -l pl.UTF-8
+Blog theme pozwala u≈ºytkownikom mieƒá trwa≈Çe motywy dla swoich blog√≥w w
+oparciu o motyw wybrany dla w≈Çasnego konta. Kiedy inni oglƒÖdajƒÖ ich
+g≈Ç√≥wnƒÖ stronƒô bloga lub dowolny utworzony wƒôze≈Ç, czytelnik zobaczy
+motyw autora zamiast w≈Çasnego.
 
-Modu≥ dzia≥a poprzez uøycie funkcji hook_init i ustawienie zmiennej
-globalnej $custom_theme na motyw w≥a∂ciciela wÍz≥a/bloga.
+Modu≈Ç dzia≈Ça poprzez u≈ºycie funkcji hook_init i ustawienie zmiennej
+globalnej $custom_theme na motyw w≈Ça≈õciciela wƒôz≈Ça/bloga.
 
 %prep
 %setup -q -n %{modname}
