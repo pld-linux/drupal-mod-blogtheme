@@ -48,6 +48,7 @@ install *.module $RPM_BUILD_ROOT%{_moddir}
 
 %clean
 rm -rf $RPM_BUILD_ROOT
+
 %files
 %defattr(644,root,root,755)
 %doc *.txt
